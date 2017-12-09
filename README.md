@@ -10,10 +10,11 @@ Feather becomes disconnected for any reason.
     The OLED will be used to display the IP address even
     if it is 169.x.x.x so someone can launch the web page using the IP.
 - The web page should scan and list the available Wi-Fi networks (I saw some sample code for this also).
-- Web page should allow the user to select an available SSID. It should have text fields to allow the user to
-type in connection info if required for the network they want to connect to. The web page should allow
-user to select connect to the network using DHCP and should provide the option to manual type in static
-IP address, subnet, and gateway.
+- Web page should allow the user to select an available SSID. 
+    It should have text fields to allow the user to
+    type in connection info if required for the network they want to connect to. The web page should allow
+    user to select connect to the network using DHCP and should provide the option to manual type in static
+    IP address, subnet, and gateway.
 - Web page should provide a textbox to type in the URL or IP of the MQTT Broker. There should be a
 connect button available to connect to the Broker. If a connection to the Broker is successful there
 should be a message that says it was successful on the web page.
